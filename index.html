@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpareTimeDevStudio Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="index.html" class="logo">SpareTimeDevStudio</a>
+        
+        <div class="menu-toggle" id="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header class="hero">
+      <h1>Prototype Development</h1>
+      <p class="subtitle">game development practice portfolio...</p>
+      <div class="cta-buttons">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="section-title">Prototype Examples</h2>
+      <div class="projects-grid" id="projects-container">
+        <!-- Projects will be inserted here by JavaScript -->
+      </div>
+      <div class="view-all">
+        <a href="projects.html" class="btn btn-outline">View All Projects</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>© <span id="current-year"></span> SpareTimeDevStudio. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
