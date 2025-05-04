@@ -1,5 +1,12 @@
 // Project data
 const projects = [
+  {
+    title: "Pong",
+    description: "A simple Pong game which can be played with two players.",
+    image: "img/pong.png",
+    tags: ["2D", "Arcade"],
+    link: "games/pong/index.html"
+  }
     // {
     //   title: "Space Adventure",
     //   description: "A 2D space shooter with procedurally generated levels and power-ups.",
